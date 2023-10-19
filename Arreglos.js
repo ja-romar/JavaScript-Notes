@@ -36,7 +36,7 @@ const lastLetter = firstName[firstName.lenght - 1];
 para encontrar caracteres en distinas posiciones*/
 
 //Ejemplo:
-const lastnName = "Mauro"
+const lastName = "Mauro"
 const secondToLastLetterOfLastName = lastName[lastName.length -2];
 // En este ejemplo, el caracter seria r.
 
