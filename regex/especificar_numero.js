@@ -36,3 +36,10 @@ let result2 = haRegex.test(haStr2);
 
 console.log(result1); //Arrojara true
 console.log(result2); // arrojara false porque se requieren por lo menos 3 z
+
+/*
+Incluso si conoces el numero exacto de coincidencia que debes bucar puedes buscarlas de la siguiente forma */   
+
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/; // buscara que la m se repita 4 veces de lo contrario devolvera false.
+let resultTimber = timRegex.test(timStr);
